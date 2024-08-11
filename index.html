@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Toggler</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="app.js"></script>
+  </head>
+
+  <body class="light">
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="header__link">Home </a></li>
+        <li class="nav-item"> <a href="./index.html#about" class="header__link">About </a></li>
+
+        <!-- Dropdown -->
+
+        <li class="nav-item has-dropdown">
+          <a href="#">Theme</a>
+          <ul class="dropdown">
+            <li class="dropdown-item">
+              <a id="light" href="#">light</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="dark" href="#">dark</a>
+            </li>
+            <li class="dropdown-item">
+              <a id="solar" href="#">solarize</a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- <li class="nav-item">Login</li> -->
+      </ul>
+    </nav>
+
+    <header>
+      <img src="logo.png" class="logo" />
+      <h1>Innovative Web Development<br />Igniting Creativity</h1>
+
+      <p>React, Node.js, API Integration, MongoDB </p>
+    </header>
+
+    <main>
+     
+      <section id="home" class="home-hero">
+        <div class="home-hero__content">
+          <h1 class="heading-primary">Hi There! <span class="wave" role="img" aria-labelledby="wave">👋🏻</span><br>
+            I'm <strong>Naved Khan</strong>
+          </h1>
+          <div class="home-hero__info">
+            <p class="text-primary">
+              A Dedicated MERN Stack Developer with a passion for building dynamic and scalable web applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="home-hero__socials">
+          <div class="home-hero__social">
+            <a href="https://www.linkedin.com/in/naved-kk/" class="home-hero__social-icon-link">
+              <img src="./linkedin-ico.png" alt="LinkedIn profile" class="home-hero__social-icon" />
+            </a>
+          </div>
+          <div class="home-hero__social">
+            <a href="https://github.com/navedk43" class="home-hero__social-icon-link">
+              <img src="./github-ico.png" alt="GitHub profile" class="home-hero__social-icon" />
+            </a>
+          </div>
+          <div class="home-hero__social">
+            <a href="#" class="home-hero__social-icon-link">
+              <img src="./twitter-ico.png" alt="Twitter profile" class="home-hero__social-icon" />
+            </a>
+          </div>
+        </div>
+
+        <div class="home-hero__mouse-scroll-cont">
+          <div class="mouse"></div>
+        </div>
+      </section>
+      
+<br>
+      <section id="about" class="about sec-pad">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main">About Me</span>
+            <br>
+            <span class="heading-sec__sub">
+              A Dedicated <strong>MERN Stack Developer</strong> with a passion for building dynamic and scalable web applications
+            </span>
+          </h2>
+          <div class="about__content">
+            <div class="about__content-main">
+              <h3 class="about__content-title">Get to know me!</h3>
+              <div class="about__content-details">
+                <p class="about__content-details-para">
+                  Hey! It's
+                  <strong>Naved Khan</strong>
+                  and I'm a <strong> MERN Developer </strong> from <strong>Indore , India.</strong>
+                  <br>
+                  <br>
+                  🚀 Passionate programmer fluent in <strong>C/C++, JavaScript, and React </strong>
+                  , dedicated to crafting innovative web technologies and products. Specializing in <strong>MERN stack projects</strong>, I thrive on pushing boundaries with <strong>Node.js and modern frameworks</strong> like<strong> React.js and Next.js.</strong><br> <br>
+                  Apart from coding, you'll often find me:  <br>
+                  🎮 Playing Games <br>
+                  ✈️ Travelling <br>
+                  📚 Reading Books <br>
+                  <strong><i>"Pushing boundaries, shaping destinies."</i></strong> <br>
+                  <br> Let's embark on a journey of creativity and impact together! <br>
+                   Feel free to
+                  <strong>contact</strong> me here.
+                </p>
+              </div>
+              
+
+            </div>
+            <div class="about__content-skills">
+              <h3 class="about__content-title">My Skills</h3>
+              <div class="skills">
+                <div class="skills__skill">C/C++</div>
+                <div class="skills__skill">Java</div>
+                <div class="skills__skill">OOPs</div>
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">JavaScript</div>
+                <div class="skills__skill">JQuery</div>
+                <div class="skills__skill">Bootstrap</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">Node JS</div>
+                <div class="skills__skill">Express JS</div>
+                <div class="skills__skill">MongoDB</div>
+                <div class="skills__skill">GIT</div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<br>
+<br><br>
+      <div class="main-footer__lower">
+        &copy; Copyright 2024. Made by
+        <a rel="noreferrer" target="_blank" href="#"
+          >Naved Khan</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
